@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Rating from '../rating/rating';
 import Initial from '../initial/initial';
-import './comments.css';
+import './comments.scss';
 
 class Comment extends Component {
   render() {

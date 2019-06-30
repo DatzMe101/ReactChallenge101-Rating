@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import IconStar from './iconStar';
-import './rating.css';
+import './rating.scss';
 
 class Rating extends Component {
   state = {

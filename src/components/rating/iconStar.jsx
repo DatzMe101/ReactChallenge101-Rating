@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './rating.css';
+import './rating.scss';
 
 class IconStar extends Component {
   

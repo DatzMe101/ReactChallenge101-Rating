@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Comment from './comment';
 import Rating from '../rating/rating';
 import productImage from '../../assets/images/acoustic-guitar.jpg';
-import './comments.css';
+import './comments.scss';
 
 const data = [
   {
@@ -60,7 +60,7 @@ class Comments extends Component {
   render() {
     const { name, description, rating } = this.state.newComment;
     return (
-    <div>
+    <div className="comments-section">
       <div className="container">
         <div className="row">
           <div className="col-md-6">

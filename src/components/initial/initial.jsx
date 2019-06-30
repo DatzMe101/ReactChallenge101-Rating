@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './initial.css';
+import './initial.scss';
 
 class Initial extends Component {
   getInitials = () => {
