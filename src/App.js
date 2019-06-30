@@ -8,13 +8,13 @@ function App() {
       <nav className="navbar fixed-top navbar-light bg-light">
         <span className="navbar-brand mb-0 h1">React Challenge 101</span>
       </nav>
-      <div className="container site-content">
+      <main className="container site-content">
         <div className="row">
           <div className="col-md-12">
             <Comments />
           </div>
         </div>
-      </div>
+      </main>
     </div>
   );
 }
